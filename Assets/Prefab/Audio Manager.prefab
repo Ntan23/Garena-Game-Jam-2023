@@ -132,3 +132,11 @@ MonoBehaviour:
     source: {fileID: 0}
     audioMixer: {fileID: -3866592703188310437, guid: c29334ae4116b904e9e0a38e17f3ed63,
       type: 2}
+  - name: EndShoot
+    clip: {fileID: 8300000, guid: 9fbaa16d1bea82743a41a81611f02aba, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+    audioMixer: {fileID: -3866592703188310437, guid: c29334ae4116b904e9e0a38e17f3ed63,
+      type: 2}

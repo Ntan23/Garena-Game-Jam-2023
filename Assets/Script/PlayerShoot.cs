@@ -65,7 +65,8 @@ public class PlayerShoot : MonoBehaviour
     void Shoot()
     {
         shootCount++; 
-        am.PlayPlayerShootSFX();
+        if(shootCount < 6) am.PlayPlayerShootSFX();
+        if(shootCount == 6) am.PlayEndShootSFX();
 
         Vector3 mousePosition = Input.mousePosition;
 

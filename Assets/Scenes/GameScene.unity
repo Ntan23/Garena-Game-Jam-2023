@@ -7636,7 +7636,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 9408d5a27cce51a40aeaa9387909af57, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 25dacc6b31b210647b6719047ede0897, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -16683,7 +16683,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cf59da24924d2b84d978e09dfc9d03a9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 6
+  speed: 4
 --- !u!136 &1645471619
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -16712,7 +16712,7 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 8
+  m_Constraints: 24
   m_CollisionDetection: 2
 --- !u!114 &1645471621
 MonoBehaviour:

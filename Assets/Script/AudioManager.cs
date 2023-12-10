@@ -89,6 +89,7 @@ public class AudioManager : MonoBehaviour
     public void PlayPlayerShootSFX() => Play("PlayerShoot");
     public void PlayButtonPressedSFX() => Play("ButtonPressed");
     public void PlayUpgradeSFX() => Play("UpgradeSound");
+    public void PlayEndShootSFX() => Play("EndShoot");
 
 } 
 

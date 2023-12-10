@@ -104,11 +104,11 @@ public class GameManager : MonoBehaviour
     {
         currentLevel++;
         am.PlayUpgradeSFX();
-        
+
         levelText.text = "Lv. " + currentLevel.ToString();
 
         currentXP = 0;
-        maxXP = Mathf.Floor(maxXP + 0.5f * maxXP);
+        maxXP = Mathf.Floor(maxXP + 0.15f * maxXP);
 
         UpdateXPBar();
 
