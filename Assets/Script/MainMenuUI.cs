@@ -31,6 +31,7 @@ public class MainMenuUI : MonoBehaviour
             LeanTween.value(buttonContainer, UpdateButtonContaienrAlpha, 0.0f, 1.0f, 0.3f).setOnComplete(() =>
             {
                 foreach(Button btn in buttons) btn.enabled = true;
+                buttonContainer.GetComponent<CanvasGroup>().blocksRaycasts = true;
             });
         });
     }
